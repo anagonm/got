@@ -14,7 +14,6 @@ class HousesList extends React.Component {
     return(
       <div>
         <h3>Listado de casas</h3>
-
         { this.props.houses.map(function(current_house) {
           return (
             <House current_house={current_house}/>

@@ -2,14 +2,13 @@ import React from 'react';
 
 class CharacterResumen extends React.Component {
 
-
   dibujarAvatar(avatar) {
     return "/img/" + avatar;
   }
 
   render() {
     return(
-      <div className="characterResume" style={{display: "flex"}}>
+      <div className="characterResume">
         <div>
           <img src={this.dibujarAvatar(this.props.character.avatar)} className="avatar" alt=""/>
         </div>
@@ -23,6 +22,5 @@ class CharacterResumen extends React.Component {
     )
   }
 }
-
 
 export default CharacterResumen;

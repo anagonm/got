@@ -22,7 +22,6 @@ class Favorito extends React.Component {
     return "/img/" + avatar;
   }
 
-
   render(){
 
     var self = this;

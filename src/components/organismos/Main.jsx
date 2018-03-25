@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import Favoritos from '../moleculas/Favoritos';
 import HousesList from '../moleculas/HousesList';
 
@@ -9,9 +8,6 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
   }
-
-
-
 
   openTab(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -56,7 +52,6 @@ class Main extends React.Component {
     )
   }
 }
-
 
 Main.propTypes = {
   houses: PropTypes.array.isRequired,

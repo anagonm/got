@@ -1,0 +1,64 @@
+.characterInfo {
+  padding: 30px;
+  position: absolute;
+  background: #fff;
+  top:0;
+  right: 0;
+  height: auto;
+  box-shadow: -10px 0px 40px 1px #aaaaaa;
+
+  @media all and (min-width: 1024px) {
+    width: 40%;
+  }
+}
+
+.close-modal {
+  background-color: #43525c;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  background-color: #4CAF50;
+}
+
+.characterResume {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+}
+
+.tarjeta-info {
+  width: 100%;
+}
+
+.tarjeta-menu {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+.tarjeta-menu li {
+  padding: 10px 0;
+}
+
+.selected {
+  border-bottom: 2px solid green;
+}
+
+.justify {
+   text-align: justify;
+}

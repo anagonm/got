@@ -4,7 +4,7 @@ class CharacterTarjetaInfo extends React.Component {
   render() {
     return(
       <div className="tarjeta-info">
-        <ul className="tarjeta-menu" style={{ display: "flex" }}>
+        <ul className="tarjeta-menu">
           <li className="selected">Description </li>
           <li>Historia </li>
           <li>Actriz </li>
@@ -16,6 +16,5 @@ class CharacterTarjetaInfo extends React.Component {
     )
   }
 }
-
 
 export default CharacterTarjetaInfo;

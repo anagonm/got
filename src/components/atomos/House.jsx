@@ -28,7 +28,6 @@ class House extends React.Component {
   }
 }
 
-
 House.propTypes = {
   current_house: PropTypes.array.isRequired
 }

@@ -1,6 +1,4 @@
 import React from 'react';
-
-// import './CharacterInfo.scss'
 import CharacterResumen from '../atomos/CharacterResumen';
 import CharacterTarjetaInfo from '../atomos/CharacterTarjetaInfo';
 
@@ -19,13 +17,12 @@ class CharacterInfo extends React.Component {
     var self = this;
     return(
       <div className="characterInfo">
-        <div onClick={() => this.props.hideModal(false, null)}><span>X</span></div>
+        <div onClick={() => this.props.hideModal(false, null)}><span className="close-modal">X</span></div>
         <CharacterResumen character={this.state.character} />
         <CharacterTarjetaInfo character={this.state.character} />
       </div>
     )
   }
 }
-
 
 export default CharacterInfo;

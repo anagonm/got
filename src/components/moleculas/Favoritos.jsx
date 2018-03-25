@@ -18,8 +18,8 @@ class Favoritos extends React.Component {
     this.setState({character_seleccionado: character_seleccionado})
   }
 
-
   render() {
+
     var self = this;
 
     var modal = (this.state.mostrar === true) ? (
@@ -39,10 +39,8 @@ class Favoritos extends React.Component {
   }
 }
 
-
 Favoritos.propTypes = {
   characters: PropTypes.array.isRequired
 }
-
 
 export default Favoritos

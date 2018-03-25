@@ -1,5 +1,3 @@
-// Sistema
-
 import React from 'react';
 import PropTypes from 'prop-types'
 import Header from '../organismos/Header';
@@ -9,9 +7,6 @@ class GameOfThrones extends React.Component {
 
   constructor(props) {
     super(props);
-    // this.props = props;
-    // this.props.houses
-    // this.props.characters
   }
 
   render() {
